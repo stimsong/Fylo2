@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
@@ -16,13 +18,18 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
+
 <body>
 
   <header>
     <img src="images/logo.svg" alt="">
-    <a href="">Sign In</a>  <!-- link -->
-    <button>Sign Up</button>  <!-- button -->
+    <div id="header-links">
+      <a href="">Sign In</a>  <!-- link -->
+      <button id="button-signup">Sign Up</button>  <!-- button -->
+    </div>
   </header>
+
+  <img id="illustration-main" src="images/illustration-main.svg" alt="">
 
   <h1>All your files in one secure location, accessible anywhere.</h1>
 
@@ -92,7 +99,6 @@
 
   <section id="footer1">
 
-    <!-- Insert logo here -->
     <img src="images/logo.svg" alt="">
     <p>Receive updates from us, including tips and tricks on how to improve your workflow.</p>
 

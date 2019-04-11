@@ -1,3 +1,57 @@
-font-family: 'Raleway', sans-serif;
 
-font-family: 'Open Sans', sans-serif;
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 25px 50px;
+    background-image: url(images/bg-intro-mobile.svg);
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+header * {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
+}
+
+header img {
+    height: 25px;
+    width: auto;
+}
+
+#header-links {
+    text-align: right;
+}
+
+#button-signup {
+    background-color: hsl(163, 95%, 43%);
+    color: #fff;
+    margin-left: 10px;
+    padding: 5px 20px;
+    border: solid 1px;
+    border-radius: 4px;
+}
+
+#illustration-main {
+    display: block;
+    width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
