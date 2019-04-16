@@ -112,3 +112,42 @@ header img {
     text-align: center;
     padding: 50px 25px;
 }
+
+#info-2 h2 {
+    padding: 0 25px; 
+}
+
+#info-2 img {
+    width: 50%;
+    height: auto;
+}
+
+.app-icon {
+    padding: 30px 0;
+    border-bottom: 2px solid rgb(238, 238, 238);
+}
+
+.app-info {
+    padding-bottom: 20px;
+}
+
+#slack-container {
+    display: grid;
+    margin: 30px 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(238, 238, 238);
+    box-shadow: 0 0 8px 5px rgb(247, 247, 247);
+}
+
+#gsuite-container {
+    display: grid;
+    margin: 30px 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    /* border-color: hsl(106, 0%, 98%); */
+    border-color: aqua;
+}
+
