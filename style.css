@@ -25,6 +25,9 @@ p {
 
 a {
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
+    color: #fff;
 }
 
 header {
@@ -113,18 +116,22 @@ header img {
     padding: 50px 25px;
 }
 
-#info-2 h2 {
-    padding: 0 25px; 
+#info-2-intro {
+    padding-bottom: 20px;
 }
 
-#info-2 img {
-    width: 50%;
-    height: auto;
+#info-2-intro h2 {
+    padding: 0 25px 25px 25px; 
 }
 
 .app-icon {
     padding: 30px 0;
     border-bottom: 2px solid rgb(238, 238, 238);
+}
+
+.app-icon img {
+    width: 50%;
+    height: auto;
 }
 
 .app-info {
@@ -146,8 +153,115 @@ header img {
     margin: 30px 50px;
     border-style: solid;
     border-radius: 5px;
-    border-width: 3px;
-    /* border-color: hsl(106, 0%, 98%); */
-    border-color: aqua;
+    border-width: 2px;
+    border-color: rgb(238, 238, 238);
+    box-shadow: 0 0 8px 5px rgb(247, 247, 247);
 }
 
+#trello-container {
+    display: grid;
+    margin: 30px 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(238, 238, 238);
+    box-shadow: 0 0 8px 5px rgb(247, 247, 247);
+}
+
+#asana-container {
+    display: grid;
+    margin: 30px 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(238, 238, 238);
+    box-shadow: 0 0 8px 5px rgb(247, 247, 247);
+}
+
+#salesforce-container {
+    display: grid;
+    margin: 30px 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(238, 238, 238);
+    box-shadow: 0 0 8px 5px rgb(247, 247, 247);
+}
+
+#typeform-container {
+    display: grid;
+    margin: 30px 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(238, 238, 238);
+    box-shadow: 0 0 8px 5px rgb(247, 247, 247);
+}
+
+#conclusion {
+    text-align: center;
+    padding: 50px 25px;
+}
+
+#conclusion h2 {
+    padding: 0 25px 25px 25px; 
+}
+
+#conclusion p {
+    padding-bottom: 20px;
+}
+
+#footer-1 {
+    padding: 75px 25px;
+    color: #fff;
+    background-color: hsl(243, 87%, 12%);
+}
+
+#footer-1 svg {
+    padding-right: 5px;
+}
+
+#footer-1 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#footer-1 li {
+    padding: 5px 0;
+}
+
+#footer-1 p {
+    padding: 5px 0;
+    font-size: .8em;
+    color: #fff;
+}
+
+#footer-1-info input {
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 2px;
+    border: hidden;
+}
+
+#footer-1-info button {
+    float: right;
+    margin: 15px 0;
+    font-size: .7em;
+    color: #fff;
+    background-color: hsl(163, 95%, 43%);
+    padding: 6px 50px;
+    border: hidden;
+    border-radius: 2px;
+}
+
+#footer-1-links-1 {
+    padding: 15px 0;
+}
+
+#footer-1-links-2 {
+    padding: 15px 0;
+}
+
+#footer-1-links-3 {
+    padding: 15px 0;
+}
