@@ -1,0 +1,267 @@
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8em;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
+    color: hsl(0, 0%, 50%);
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 25px 100px;
+    background-image: url(images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 66% 100%;
+    background-position: right;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+header * {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9em;
+    color: #fff;
+}
+
+header img {
+    height: 25px;
+    width: auto;
+}
+
+#header-links {
+    text-align: right;
+}
+
+#button-signup {
+    background-color: hsl(163, 95%, 43%);
+    margin-left: 10px;
+    padding: 6px 22px;
+    border: solid 1px;
+    border-radius: 2px;
+    border-color: hsl(163, 95%, 43%);
+}
+
+.button-getstarted {
+    color: #fff;
+    background-color: hsl(163, 95%, 43%);
+    margin: 10px;
+    padding: 12px 75px;
+    border: solid 1px;
+    border-radius: 4px;
+    border-color: hsl(163, 95%, 43%); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;  
+}
+
+#illustration-main {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -35px;
+}
+
+#intro {
+    text-align: center;
+    padding: 0 25px;
+}
+
+#info-1 {
+    text-align: center;
+    padding: 150px 25px;
+/*   #####   Create background svg image   #####    */
+/*     background-image: url(images/main-background.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500%; */
+}
+
+#info-1 h2 {
+    padding: 0 50px;
+}
+
+.icons {
+    padding: 35px 50px;
+}
+
+#info-2 {
+    text-align: center;
+    padding: 50px 25px;
+}
+
+#info-2-intro {
+    padding-bottom: 20px;
+}
+
+#info-2-intro h2 {
+    padding: 0 25px 25px 25px; 
+}
+
+.app-icon {
+    padding: 30px 0;
+    border-bottom: 2px solid rgb(238, 238, 238);
+}
+
+.app-icon img {
+    width: 50%;
+    height: auto;
+}
+
+.app-info {
+    padding-bottom: 20px;
+}
+
+#slack-container {
+    display: grid;
+    margin: 30px 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(238, 238, 238);
+    box-shadow: 0 0 8px 5px rgb(247, 247, 247);
+}
+
+#gsuite-container {
+    display: grid;
+    margin: 30px 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(238, 238, 238);
+    box-shadow: 0 0 8px 5px rgb(247, 247, 247);
+}
+
+#trello-container {
+    display: grid;
+    margin: 30px 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(238, 238, 238);
+    box-shadow: 0 0 8px 5px rgb(247, 247, 247);
+}
+
+#asana-container {
+    display: grid;
+    margin: 30px 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(238, 238, 238);
+    box-shadow: 0 0 8px 5px rgb(247, 247, 247);
+}
+
+#salesforce-container {
+    display: grid;
+    margin: 30px 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(238, 238, 238);
+    box-shadow: 0 0 8px 5px rgb(247, 247, 247);
+}
+
+#typeform-container {
+    display: grid;
+    margin: 30px 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: rgb(238, 238, 238);
+    box-shadow: 0 0 8px 5px rgb(247, 247, 247);
+}
+
+#conclusion {
+    text-align: center;
+    padding: 50px 25px;
+}
+
+#conclusion h2 {
+    padding: 0 25px 25px 25px; 
+}
+
+#conclusion p {
+    padding-bottom: 20px;
+}
+
+#footer-1 {
+    padding: 75px 25px;
+    color: #fff;
+    background-color: hsl(243, 87%, 12%);
+}
+
+#footer-1 svg {
+    padding-right: 5px;
+}
+
+#footer-1 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#footer-1 li {
+    padding: 5px 0;
+}
+
+#footer-1 p {
+    padding: 5px 0;
+    font-size: .8em;
+    color: #fff;
+}
+
+#footer-1-info input {
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 2px;
+    border: hidden;
+}
+
+#footer-1-info button {
+    float: right;
+    margin: 15px 0;
+    font-size: .7em;
+    color: #fff;
+    background-color: hsl(163, 95%, 43%);
+    padding: 6px 50px;
+    border: hidden;
+    border-radius: 2px;
+}
+
+#footer-1-links-1 {
+    padding: 15px 0;
+}
+
+#footer-1-links-2 {
+    padding: 15px 0;
+}
+
+#footer-1-links-3 {
+    padding: 15px 0;
+}
