@@ -78,7 +78,7 @@ header img {
     font-size: 1.1em;  
 }
 
-#illustration-main {
+#illustration-main img {
     display: block;
     width: 70%;
     height: auto;
@@ -88,7 +88,7 @@ header img {
     top: -35px;
 }
 
-#intro {
+#intro-text {
     text-align: center;
     padding: 0 25px;
 }
@@ -265,3 +265,50 @@ header img {
 #footer-1-links-3 {
     padding: 15px 0;
 }
+
+
+@media only screen and (min-width: 768px) {
+    /*     **********     For desktop     **********     */
+
+#desktop-intro-container {
+    padding: 0 50px;
+    background-image: url(images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: right;
+}
+
+header {
+    background-image: none;
+    background-size: 50% 100%;
+    padding: 50px 0px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#intro-text {
+    flex-basis: 50%;
+    text-align: left;
+    padding: 50px 100px 0 0;
+}
+
+#illustration-main {
+    flex-basis: 50%;
+    z-index: 10;
+    padding-bottom: 50px;
+}
+
+#illustration-main img {
+    display: block;
+    width: 275px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0;
+}
+
+}  /*      ******  @media only screen and (min-width: 768px)  ********     */
