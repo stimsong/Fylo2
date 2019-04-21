@@ -1,3 +1,11 @@
+    /*     **********************************************     */
+    /*     **********      Mobile Version      **********     */
+    /*     **********     incl base styles     **********     */
+    /*     **********************************************     */
+
+* {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
@@ -266,9 +274,11 @@ header img {
     padding: 15px 0;
 }
 
+    /*     *********************************************     */
+    /*     **********     Desktop Version     **********     */
+    /*     *********************************************     */
 
 @media only screen and (min-width: 768px) {
-    /*     **********     For desktop     **********     */
 
 #desktop-intro-container {
     padding: 0 50px;
@@ -309,6 +319,38 @@ header {
     margin-right: auto;
     position: relative;
     top: 0;
+}
+
+#info-1-icons-container {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#info-1-icons-container svg {
+    height: 80%;
+    width: auto;
+}
+
+#info-1-icons-container h3 {
+    font-size: 1em;
+}
+
+#info-1-icons-container > div {
+    flex-basis: 30%;
+}
+
+.icons {
+    /* display: block; */
+    /* height: 100px; */
+    /* width: auto; */
+    /* padding: 35px 50px; */
+}
+
+#info-1 p {
+    padding: 0 30%;
+    font-size: .7em;
 }
 
 }  /*      ******  @media only screen and (min-width: 768px)  ********     */
