@@ -143,7 +143,8 @@ header img {
 }
 
 .app-info {
-    padding-bottom: 20px;
+    padding: 0 5px 5px 20px;
+    /* padding-bottom: 20px; */
 }
 
 #slack-container {
@@ -329,8 +330,9 @@ header {
 }
 
 #info-1-icons-container svg {
-    height: 80%;
-    width: auto;
+    /* #################   TODO resize icons  ################# */
+/*     height: 80%;
+    width: auto; */
 }
 
 #info-1-icons-container h3 {
@@ -352,5 +354,48 @@ header {
     padding: 0 30%;
     font-size: .7em;
 }
+
+#info-2 {
+    display: flex;
+    margin: 30px;
+}
+
+#info-2-intro {
+    flex-basis: 40%;
+    padding-right: 50px;
+    text-align: left;
+    align-self: center;
+}
+
+#info-2-intro h2 {
+    padding: 0 0 25px 0;
+}
+
+#info-2-apps-container {
+    flex-basis: 60%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+#info-2-apps-container > div {
+    margin: 3px;
+    padding: 5px;
+}
+
+/* #info-2-apps-container-column-1 > div {
+    margin: 3px;
+    padding: 5px;
+}
+
+#info-2-apps-container-column-2 > div {
+    margin: 3px;
+    padding: 5px;
+}
+
+#info-2-apps-container-column-3 > div {
+    margin: 3px;
+    padding: 5px;
+}
+ */
 
 }  /*      ******  @media only screen and (min-width: 768px)  ********     */
