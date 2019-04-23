@@ -144,7 +144,6 @@ header img {
 
 .app-info {
     padding: 0 5px 5px 20px;
-    /* padding-bottom: 20px; */
 }
 
 #slack-container {
@@ -343,13 +342,6 @@ header {
     flex-basis: 30%;
 }
 
-.icons {
-    /* display: block; */
-    /* height: 100px; */
-    /* width: auto; */
-    /* padding: 35px 50px; */
-}
-
 #info-1 p {
     padding: 0 30%;
     font-size: .7em;
@@ -358,6 +350,23 @@ header {
 #info-2 {
     display: flex;
     margin: 30px;
+}
+
+.app-icon {
+    height: 95px;
+    width: 160px;
+    padding: 0;
+    position: relative;   /* Used to center img in the middle of a child div (.app-icon img)  */
+}
+
+.app-icon img {
+    /* Used to center img in the middle of a parent div (.app-icon)  */
+    /* http://css-workshop.com/css-center-textimagediv-in-middle-of-parent-div-container/  */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 #info-2-intro {
@@ -375,12 +384,62 @@ header {
     flex-basis: 60%;
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 35px auto 35px auto 35px;
 }
 
 #info-2-apps-container > div {
     margin: 3px;
     padding: 5px;
 }
+
+#slack-container {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 2 / span 2;
+/*     grid-row-start: 2;
+    grid-row-end: 3; */
+}
+
+#asana-container {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 4 / span 2;
+/*     grid-row-start: 3;
+    grid-row-end: 4; */
+}
+
+#gsuite-container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 1 / span 2;
+/*     grid-row-start: 1;
+    grid-row-end: 3; */
+}
+
+#salesforce-container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 3 / span 2;
+/*     grid-row-start: 3;
+    grid-row-end: 4; */
+}
+
+#trello-container {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 2 / span 2;
+/*     grid-row-start: 2;
+    grid-row-end: 3; */
+}
+
+#typeform-container {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 4 / span 2;
+/*     grid-row-start: 3;
+    grid-row-end: 4; */
+}
+
 
 /* #info-2-apps-container-column-1 > div {
     margin: 3px;
