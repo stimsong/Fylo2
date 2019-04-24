@@ -1,3 +1,11 @@
+    /*     **********************************************     */
+    /*     **********      Mobile Version      **********     */
+    /*     **********     incl base styles     **********     */
+    /*     **********************************************     */
+
+* {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
@@ -78,7 +86,7 @@ header img {
     font-size: 1.1em;  
 }
 
-#illustration-main {
+#illustration-main img {
     display: block;
     width: 70%;
     height: auto;
@@ -88,7 +96,7 @@ header img {
     top: -35px;
 }
 
-#intro {
+#intro-text {
     text-align: center;
     padding: 0 25px;
 }
@@ -135,7 +143,7 @@ header img {
 }
 
 .app-info {
-    padding-bottom: 20px;
+    padding: 0 5px 10px 5px;
 }
 
 #slack-container {
@@ -265,3 +273,200 @@ header img {
 #footer-1-links-3 {
     padding: 15px 0;
 }
+
+    /*     *********************************************     */
+    /*     **********     Desktop Version     **********     */
+    /*     *********************************************     */
+
+@media only screen and (min-width: 768px) {
+
+#desktop-intro-container {
+    padding: 0 50px;
+    background-image: url(images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: right;
+}
+
+header {
+    background-image: none;
+    background-size: 50% 100%;
+    padding: 50px 0px;
+}
+
+header img {
+    height: 45px;
+    width: auto;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+
+#intro {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#intro-text {
+    flex-basis: 50%;
+    text-align: left;
+    padding: 50px 100px 0 0;
+}
+
+#illustration-main {
+    flex-basis: 50%;
+    z-index: 10;
+    padding-bottom: 50px;
+}
+
+#illustration-main img {
+    display: block;
+    width: 275px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0;
+}
+
+#info-1-icons-container {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#info-1-icons-container svg {
+    /* #################   TODO resize icons  ################# */
+/*     height: 80%;
+    width: auto; */
+}
+
+#info-1-icons-container h3 {
+    padding-top: 15px;
+    font-size: 1.2em;
+}
+
+#info-1-icons-container > div {
+    flex-basis: 28%;
+}
+
+#info-1 p {
+    padding: 0 32%;
+    font-size: .9em;
+}
+
+#info-2 {
+    display: flex;
+    margin: 30px;
+}
+
+.app-icon {
+    height: 95px;
+    width: auto;
+    padding: 0;
+    position: relative;   /* Used to center img in the middle of a child div (.app-icon img)  */
+}
+
+.app-icon img {
+    /* Used to center img in the middle of a parent div (.app-icon)  */
+    /* http://css-workshop.com/css-center-textimagediv-in-middle-of-parent-div-container/  */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.app-info h2 {
+    font-size: 1.3em;
+}
+
+.app-info p {
+    padding: 0 10px;
+}
+
+#info-2-intro {
+    flex-basis: 40%;
+    padding-right: 50px;
+    text-align: left;
+    align-self: center;
+}
+
+#info-2-intro h2 {
+    padding: 0 0 25px 0;
+}
+
+#info-2-apps-container {
+    flex-basis: 60%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 35px auto 35px auto 35px;
+}
+
+#info-2-apps-container > div {
+    margin: 3px;
+    padding: 5px;
+}
+
+#slack-container {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 2 / span 2;
+/*     grid-row-start: 2;
+    grid-row-end: 3; */
+}
+
+#asana-container {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 4 / span 2;
+/*     grid-row-start: 3;
+    grid-row-end: 4; */
+}
+
+#gsuite-container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 1 / span 2;
+/*     grid-row-start: 1;
+    grid-row-end: 3; */
+}
+
+#salesforce-container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 3 / span 2;
+/*     grid-row-start: 3;
+    grid-row-end: 4; */
+}
+
+#trello-container {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 2 / span 2;
+/*     grid-row-start: 2;
+    grid-row-end: 3; */
+}
+
+#typeform-container {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 4 / span 2;
+/*     grid-row-start: 3;
+    grid-row-end: 4; */
+}
+
+#conclusion p {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+
+}  /*      ******  @media only screen and (min-width: 768px)  ********     */
