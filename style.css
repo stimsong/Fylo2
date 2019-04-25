@@ -25,6 +25,10 @@ h3 {
     font-family: 'Raleway', sans-serif;
 }
 
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: .9em;
@@ -220,13 +224,9 @@ header img {
 }
 
 #footer-1 {
-    padding: 75px 25px;
+    padding: 75px 25px 150px 25px;
     color: #fff;
     background-color: hsl(243, 87%, 12%);
-}
-
-#footer-1 svg {
-    padding-right: 5px;
 }
 
 #footer-1 ul {
@@ -274,6 +274,23 @@ header img {
     padding: 15px 0;
 }
 
+.contact-icon {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.contact-icon h4 {
+    margin: 0;
+    padding-left: 15px;
+    font-size: .6em;
+}
+
+.contact-icon svg {
+    height: 10px;
+    width: auto;
+}
+
     /*     *********************************************     */
     /*     **********     Desktop Version     **********     */
     /*     *********************************************     */
@@ -306,7 +323,6 @@ h1 {
 h2 {
     font-size: 1.8em;
 }
-
 
 #intro {
     display: flex;
@@ -467,6 +483,57 @@ h2 {
     padding-left: 25%;
     padding-right: 25%;
 }
+
+#footer-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#footer-1 h2 {
+    font-size: 1em;
+}
+
+#footer-1 li {
+    font-size: .8em;
+}
+
+#footer-1-info {
+    flex-basis: 52%;
+    margin-right: 20px;
+}
+
+#footer-1-info p {
+    width: 80%;
+}
+
+#footer-1-info form {
+    float: left;
+    width: 50%;
+}
+
+#footer-1-info button {
+    float: left;
+    margin: 0 15px;
+}
+
+#footer-1-links-1 {
+    flex-basis: 16%;
+    padding-top: 50px;
+}
+
+#footer-1-links-2 {
+    flex-basis: 16%;
+    padding-top: 50px;
+}
+
+#footer-1-links-3 {
+    flex-basis: 16%;
+    padding-top: 50px;
+}
+
 
 
 }  /*      ******  @media only screen and (min-width: 768px)  ********     */
